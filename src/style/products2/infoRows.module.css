@@ -1,0 +1,79 @@
+@font-face {
+  font-family: founder;
+  src: url(/public/Founders_Grotesk/FoundersGrotesk-Regular.otf);
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.imgContainer {
+  width: 100%;
+  height: 400px;
+
+}
+
+.imgContainer img {
+  height: 100%;
+  width: 100%;
+}
+
+.descContainer {
+  padding: 64px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.descContainer p {
+  text-align: left;
+  width: 100%;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.BtnContainer button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.BtnContainer button {
+  width: fit-content;
+  height: 40px;
+  width: 150px;
+  background-color: #f8bbd0;
+  border: 2px solid #fa2c74;
+  border-radius: 10px;
+  transition: all .3s linear;
+  font-weight: 600;
+  font-size: 15px;
+
+}
+
+.descContainer h2 {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: founder;
+}
+
+.descContainer h1 {
+  width: 60%;
+  font-size: 30px;
+  font-weight: 800;
+  font-family: founder;
+}
+
+.descContainer button:hover {
+  background-color: transparent;
+  color: #fa2c74;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+}

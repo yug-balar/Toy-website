@@ -1,0 +1,37 @@
+.titleComponants {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 32px;
+}
+
+.titleComponants h2 {
+  display: flex;
+  font-family: "Anta", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 32px;
+  color: #000cff;
+  background: linear-gradient(90deg in oklab, blue, red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  content: '';
+  border-bottom: 2px solid black;
+  animation: border 3s linear infinite;
+}
+
+@keyframes border {
+  0% {
+    border-bottom: 2px solid black;
+  }
+
+  50% {
+    border-bottom: 0px;
+  }
+
+  1100% {
+    border-bottom: 2px solid black;
+  }
+}

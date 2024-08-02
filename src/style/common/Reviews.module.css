@@ -1,0 +1,47 @@
+.container {
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.main {
+    height: 90vh;
+    background-color: #f3c4d59d;
+
+}
+
+.CardContainer {
+    background-color: #c5cae9;
+    height: 350px;
+    width: 38vw;
+    border-radius: 16px;
+}
+
+.title h1 {
+    margin-top: 70px;
+    text-align: center;
+    font-size: 40px;
+    padding: 20px;
+}
+
+.first {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.first p {
+    width: 100%;
+    padding: 40px 30px;
+}
+
+.second {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}

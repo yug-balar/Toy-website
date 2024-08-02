@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Kode+Mono:wght@400..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Kode+Mono:wght@400..700&family=Protest+Revolution&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Kode+Mono:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Protest+Revolution&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Dancing+Script:wght@400..700&family=Kode+Mono:wght@400..700&family=Nunito:ital,wght@0,348;1,348&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Protest+Revolution&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Dancing+Script:wght@400..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Kode+Mono:wght@400..700&family=Nunito:ital,wght@0,348;1,348&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Protest+Revolution&family=Teko:wght@300..700&display=swap");
+
+.container {
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 16px;
+  font-size: 22px;
+}
+.container .contentContainer1 h3 {
+  /* font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal; */
+  display: flex;
+}
+
+.contentContainer1 h1 {
+  /* font-family: "Protest Revolution", sans-serif;
+  font-weight: 400;
+  font-style: normal; */
+  color: #000cff;
+  background: linear-gradient(to bottom right, #ff5f6d, #ffc371);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.contentContainer1 h2 {
+  color: white;
+  /* font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal; */
+}
+
+.contentContainer1 p {
+  /* font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal; */
+  display: flex;
+  color: white;
+}
+
+.contentContainer1 {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 64px;
+  justify-content: center;
+  color: white;
+}
+
+.myPhoto {
+  padding: 32px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.myPhoto img {
+  width: 45%;
+}
+
+.container button {
+  width: 70px;
+  border-radius: 5px;
+  background-color: #90caf9;
+  border: none;
+  cursor: pointer;
+  width: 80px;
+  padding: 8px 16px;
+}
+
+img,
+.contentContainer {
+  gap: 6px;
+}
+
+@media screen and (max-width: 730px) {
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+  }
+
+  .myPhoto {
+    width: 50vh;
+    position: relative;
+  }
+
+  .myPhoto,
+  .contentContainer1 {
+    padding: 20px 40px;
+  }
+
+  .contentContainer1 {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .myPhoto {
+    padding: 0px;
+    position: relative;
+  }
+}
+
+@media screen and (max-width: 905px) {
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,40 @@
+@font-face {
+  font-family: founder;
+  src: url(/public/Founders_Grotesk/FoundersGrotesk-Regular.otf);
+}
+
+.tabsContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+
+.tabsList {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.tab {
+
+  font-family: founder;
+  background-color: #c5cae9;
+  padding: 8px 16px;
+  text-align: center;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  border: 2px solid #c5cae9;
+  transition: all .3s linear;
+}
+
+.tab:hover {
+  background-color: transparent;
+  border: 2px solid #f8bbd0;
+  border-radius: 8px;
+  color: #ec407a;
+  letter-spacing: 1.5px;
+}
